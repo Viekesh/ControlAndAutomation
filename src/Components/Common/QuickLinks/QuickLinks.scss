@@ -1,0 +1,39 @@
+.quick_links {
+    border: 3px solid transparent;
+    margin: 6vh auto 3vh auto;
+}
+
+.quick_links>.heading>h1 {
+    color: snow;
+}
+
+.skills_container {
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills_container>.pro {
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    border-radius: 24px;
+    margin: 6vh;
+    width: 90px;
+    height: 90px;
+    background-color: snow;
+    box-shadow: 3px 1px 15px gray;
+}
+
+.skills_container>.pro>img {
+    border-radius: 100%;
+    width: 72%;
+    height: 72%;
+}
+
+@media only screen and (min-width: 768px) {
+    .skills_section {
+        display: none;
+    }
+}
