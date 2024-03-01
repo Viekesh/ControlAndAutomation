@@ -9,7 +9,7 @@ export const LandingPageHead = [
 
 export const InformationContent = [
     {
-        contentOne: "streamline your workflow with our instant maintenance service",
+        contentOne: "design, install, and maintain electrical systems for homes, businesses, and factories, ensuring safety, efficiency, and power",
         contentTwo: "for the latest update follow us on instagram",
     }
 ]

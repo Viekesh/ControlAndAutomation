@@ -7,6 +7,14 @@ header {
     background-attachment: fixed;
 }
 
+main {
+    padding: 9vh 0;
+}
+
+main .heading .main_head {
+    display: none;
+}
+
 .landing_page_head {
     border: 3px solid transparent;
     margin: 30vh auto 0 auto;
@@ -31,7 +39,7 @@ header {
 // Informational Content
 
 .informational_content {
-    border: 3px solid transparent;
+    // border: 3px solid snow;
     margin: 36vh auto 0 auto;
     // padding: 0 0 6vh 0;
     // background-image: url("../../../Assets/Images/index-bg.png");
@@ -184,6 +192,7 @@ header {
 
 .information_content2 {
     border: 3px solid black;
+    margin: 6vh auto;
     padding: 9vh 0;
     background-image: url("../../../Assets/Images/bgImg4.jpg");
     background-position: center;
@@ -192,8 +201,8 @@ header {
 }
 
 .information_content2>.content_elements {
-    border: 3px solid transparent;
-    margin: 0 auto;
+    // border: 3px solid snow;
+    margin: 3vh auto 15vh auto;
     width: 80%;
     color: snow;
 }
@@ -201,20 +210,21 @@ header {
 .information_content2>.content_elements>h2 {
     text-transform: capitalize;
     font-family: "Kanit", sans-serif;
-    font-size: 36px;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: 200;
 }
 
 .information_content2>.content_elements>h2:nth-child(2) {
-    margin: 2vh auto;
+    margin: 9vh auto 6vh auto;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 600;
 }
 
 footer {
     margin: 15vh auto 0 auto;
     background-color: black;
 }
+
 .footer {
     border: 3px solid black;
     padding: 4vh;

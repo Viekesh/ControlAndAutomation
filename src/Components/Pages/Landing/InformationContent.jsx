@@ -2,8 +2,6 @@ import { LandingPageHead } from "../../../ServiceDB/LandingPageContent";
 
 
 
-
-
 const InformationContent = () => {
 
     const textAnimate = () => {

@@ -10,7 +10,6 @@ import "./Landing.scss";
 
 
 
-
 const Landing = () => {
     return (
         <>

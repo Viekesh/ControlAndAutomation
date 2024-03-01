@@ -1,16 +1,34 @@
 // Heading
 
 .heading {
-    border: 3px solid transparent;
-    margin: 6vh auto 1vh auto;
+    // border: 3px solid greenyellow;
 }
 
 .heading h1 {
-    border: 3px solid transparent;
+    // border: 3px solid black;
     margin: 0 auto;
     width: 80%;
     font-size: 30px;
     font-family: "Kanit", sans-serif;
     // color: #ff9900;
     color: darkblue;
+}
+
+.heading>.main_head {
+    // border: 3px solid red;
+    height: 24vh;
+    background-image: url("../../../Assets/Images/mainHeadBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.heading>.main_head>h1 {
+    // border: 3px solid snow;
+    font-family: "Kanit", sans-serif;
+    font-size: 33px;
+    font-weight: 900;
+    color: snow;
+    justify-content: center;
+    text-shadow: 3px 1px 9px gray;
 }
