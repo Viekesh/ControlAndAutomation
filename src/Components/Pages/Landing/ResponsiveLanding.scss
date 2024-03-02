@@ -1,0 +1,42 @@
+@media only screen and (min-width: 768px) {
+    header {
+        background-image: url(../../../Assets/Images/desktopBgImg.png);
+    }
+
+    // Informational Content
+    .informational_content {
+        border: 3px solid transparent;
+    }
+
+    .informational_content>.content_box {
+        // border: 3px solid greenyellow;
+        margin: 12vh auto 0 auto ;
+        width: 55%;
+    }
+
+    .informational_content>.content_box h1 {
+        // border: 3px solid snow;
+        width: 70%;
+        position: absolute;
+        font-family: "Kanit", sans-serif;
+        font-size: 45px;
+        font-weight: 800;
+        text-align: left;
+        line-height: 54px;
+    }
+
+    #PageHeading1 {
+        left: -3vh;
+        opacity: 0;
+        transition: 1s;
+
+        // background: linear-gradient(to right, snow, green, rgb(129, 214, 1), green, green, green);
+        background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, rgb(72, 72, 212));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    #PageHeading2 {
+        display: none;
+    }
+}

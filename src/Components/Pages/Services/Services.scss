@@ -9,6 +9,7 @@
 
 .services_content {
     border: 3px solid black;
+    margin: 0 auto 12vh auto;
 
     background-image: url("../../../Assets/Images/bgImg4.jpg");
     background-position: center;
@@ -42,7 +43,7 @@
 .service_categories {
     border-top: 3px solid darkblue;
     border-bottom: 3px solid darkblue;
-    margin: 6vh auto 24vh auto;
+    margin: 24vh auto;
     padding: 3vh 1vh;
     width: 80vw;
     background-color: snow;

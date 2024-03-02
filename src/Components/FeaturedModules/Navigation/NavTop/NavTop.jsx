@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./NavTop.scss";
+import "./NavResponsive.scss";
 import { useState } from "react";
 import { NavigationLinks } from "../../../../ServiceDB/NavigationLinks";
 import { PiBaseballCapBold } from "react-icons/pi";
@@ -24,7 +25,7 @@ const NavTop = () => {
 
     return (
         <>
-            <nav className="nav_top">
+            <nav className="nav_top x_y_axis_center">
 
                 <section className="nav_elements y_axis_center">
 
@@ -84,6 +85,18 @@ const NavTop = () => {
                                 <span className="hamburger-inner"></span>
                             </span>
                         </button>
+
+                        <div className="desktop_nav_links">
+                            <div className="links_container y_axis_center">
+                                <NavLink to="/Services">Services</NavLink>
+
+                                <NavLink to="/CaseStudies">CaseStudines</NavLink>
+
+                                <NavLink to="/ContactUs">Contact</NavLink>
+
+                                <NavLink to="/AboutUs">About</NavLink>
+                            </div>
+                        </div>
                     </div>
 
                 </section>

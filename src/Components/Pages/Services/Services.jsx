@@ -4,6 +4,7 @@ import Heading from "../../Common/Heading/Heading";
 import { ServiceCategoriesData, ServicesContent } from "../../../ServiceDB/ServicesData";
 import QnA from "../../Common/Qna/QnA";
 import SocialLinks from "../../Common/SocialLinks/SocialLinks";
+import SubHeading from "../../Common/Heading/SubHeading";
 
 
 
@@ -58,7 +59,10 @@ const Services = () => {
                         })
                     }
                 </div>
-                <Heading subHeading="Clear Your Doubts:" />
+
+
+
+                <SubHeading subHeading="Clear Your Doubts:" />
 
                 <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
 

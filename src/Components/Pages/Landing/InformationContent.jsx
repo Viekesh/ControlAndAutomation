@@ -26,6 +26,24 @@ const InformationContent = () => {
         setTimeout(textAnimate, 2000);
     }
 
+
+
+    // const textAnimateMediaQuery = (x) => {
+    //     if (x.matches) {
+    //         document.getElementById("PageHeading2").style.top = 21 + "vh";
+    //     } else {
+    //         document.getElementById("PageHeading2").style.top = 18 + "vh";
+    //     }
+    // }
+
+    // let x = window.matchMedia("(max-width: 768px)")
+
+    // textAnimateMediaQuery(x);
+
+    // x.addEventListener("change", () => {
+    //     textAnimateMediaQuery(x);
+    // });
+
     return (
         <>
             <section className="informational_content">

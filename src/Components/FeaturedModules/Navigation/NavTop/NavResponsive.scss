@@ -1,0 +1,94 @@
+@media only screen and (min-width: 768px) {
+    .nav_top {
+        // border: 3px solid red;
+        border-bottom: 6px solid snow;
+        height: 15vh;
+    }
+
+    .nav_elements {
+        // border: 3px solid red;
+        width: 60%;
+    }
+
+    .nav_elements>a {
+        border: 3px solid transparent;
+        color: snow;
+    }
+
+    .nav_elements>a>h1 {
+        font-size: 24px;
+        line-height: 21px;
+        font-family: "Kanit", sans-serif;
+    }
+
+    .nav_elements>a>h1>.logo_text1 {
+        font-family: "Kanit";
+    }
+
+    .nav_elements>a>h1>.logo_text2 {
+        font-size: 24px;
+        line-height: 21px;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 6px;
+    }
+
+    .nav_elements>a>.logo {
+        border: 6px solid snow;
+        border-radius: 100%;
+        background-color: black;
+        width: 60px;
+        height: 60px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .nav_elements>a>.logo>svg {
+        font-size: 36px;
+    }
+
+    .nav_elements>a>.logo>.logo2 {
+        // border: 2px solid greenyellow;
+        border-radius: 100%;
+        background-color: blue;
+        font-size: 21px;
+        position: absolute;
+        top: 3.3vh;
+    }
+
+
+
+    // Nav Button
+
+    .nav_elements>div>button {
+        display: none;
+    }
+
+    // Nav Links
+
+    .desktop_nav_links {
+        // border: 3px solid snow;
+        display: block;
+    }
+
+    .desktop_nav_links .links_container a {
+        // border: 3px solid red;
+        margin: 0 3vh;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        color: snow;
+    }
+
+    .desktop_nav_links .links_container a::after {
+        content: '';
+        width: 0;
+        height: 3px;
+        display: block;
+        margin: 0;
+        background: snow;
+        transition: 0.3s;
+    }
+
+    .desktop_nav_links .links_container a:hover::after {
+        width: 50%;
+    }
+}

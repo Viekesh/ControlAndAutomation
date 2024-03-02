@@ -1,4 +1,4 @@
-import Heading from "../Heading/Heading";
+import SubHeading from "../Heading/SubHeading";
 import "./QuickLinks.scss";
 
 
@@ -7,7 +7,7 @@ const QuickLinks = () => {
     return (
         <>
             <section className="quick_links">
-                <Heading subHeading="Quick Links:" />
+                <SubHeading subHeading="Quick Links:" />
                 <section className="skills_container">
                     <div className="pro x_y_axis_center typescript">
                         {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/800px-Typescript.svg.png" alt="" /> */}

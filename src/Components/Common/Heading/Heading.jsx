@@ -2,14 +2,11 @@ import "./Heading.scss";
 
 
 
-const Heading = ({ heading, subHeading }) => {
+const Heading = ({ heading }) => {
     return (
         <>
-            <section className="heading">
-                <div className="main_head y_axis_center">
-                    <h1>{heading}</h1>
-                </div>
-                <h1>{subHeading}</h1>
+            <section className="main_head y_axis_center">
+                <h1>{heading}</h1>
             </section>
         </>
     )
