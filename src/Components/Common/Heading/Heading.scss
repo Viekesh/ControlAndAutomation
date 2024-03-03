@@ -7,10 +7,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+
+    justify-content: center;
 }
 
 .main_head>h1 {
-    // border: 3px solid snow;
     margin: 0 auto;
     width: 80%;
     font-family: "Kanit", sans-serif;
@@ -19,17 +20,34 @@
     color: snow;
     justify-content: center;
     text-shadow: 3px 1px 9px gray;
-    
 }
 
 
 
 .sub_head h1 {
-    border: 3px solid black;
+    // border: 3px solid black;
     margin: 0 auto;
     width: 80%;
     font-size: 30px;
     font-family: "Kanit", sans-serif;
     // color: #ff9900;
     color: darkblue;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .main_head {
+        height: 30vh;
+    }
+
+    .main_head h1 {
+        width: 55%;
+    }
+
+    .sub_head h1 {
+        width: 60%;
+    }
+
 }

@@ -70,3 +70,11 @@
     font-family: "Kanit", sans-serif;
     font-weight: 200;
 }
+
+
+
+@media only screen and (min-width: 768px) {
+    .service_categories {
+        display: none;
+    }
+}
