@@ -1,61 +1,59 @@
-import Heading from "../../Common/Heading/Heading";
-import SubHeading from "../../Common/Heading/SubHeading";
-import QnA from "../../Common/Qna/QnA";
-import SocialLinks from "../../Common/SocialLinks/SocialLinks";
-import SwiperReact from "../../Common/SwiperReact/SwiperReact";
-import Testimonials from "../../Common/Testimonials/Testimonials";
-import NavTop from "../../FeaturedModules/Navigation/NavTop/NavTop";
-import InformationContent from "./InformationContent";
-import InformationContent2 from "./InformationContent2";
+import NavTop from "../../Featured/Navigation/NavTop/NavTop";
+import LandingPageHeading from "./LandingPageContent";
 import "./Landing.scss";
-import "./ResponsiveLanding.scss";
+import InformationContent from "./InformationalContent";
+import SubHead from "../../Common/Heading/SubHead";
+import ServicesSwiper from "../Services/ServicesSwiper";
+import QuickLinks from "../../Common/QuickLinks/QuickLinks";
+import InformationContent2 from "./InformationContent2";
+import SocialLinks from "../../Common/SocialLinks/SocialLinks";
+import Footer from "../Footer/Footer";
+import QnA from "../../Common/Qna/QnA";
+import Testimonials from "../../Common/Testimonials/Testimonials";
+// import ServicesCarousel from "../Services/ServicesCarousel";
 
 
 
 const Landing = () => {
-
     return (
         <>
-            <header className="landing" id="headElement">
+
+            <header>
                 <NavTop />
-                <InformationContent />
                 <SocialLinks />
+                <LandingPageHeading />
             </header>
 
             <main>
-                <SubHeading subHeading="Services :" />
-                <SwiperReact />
+                <InformationContent />
+
+                <QuickLinks />
+
                 <InformationContent2 />
 
-                <SubHeading subHeading="Testimonials :" />
+                <SubHead subHead="Any Question:" />
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+
+                <SubHead subHead="Reviews:" />
                 <Testimonials />
-
-                <SubHeading subHeading="Clear Your Doubts:" />
-                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
-
-                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
-
-                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
-
-                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
-
-                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
-
-                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
             </main>
 
             <footer>
-                <div className="footer">
-                    <p>Contact</p>
-                    <p>About</p>
-                    <p>Privacy And Policy</p>
-                    <p>Terms And Conditions</p>
-                </div>
+                <Footer />
             </footer>
         </>
-    )
-}
-
-
+    );
+};
 
 export default Landing;

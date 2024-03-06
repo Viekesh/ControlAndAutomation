@@ -1,6 +1,5 @@
-import { InformationContent } from "../../../ServiceDB/LandingPageContent";
-import QuickLinks from "../../Common/QuickLinks/QuickLinks";
-import InstagramLink from "../../Common/SocialLinks/InstagramLink";
+import { LandingInformationContent2 } from "../../../ServiceDB/LandingPageContent";
+import Instagram from "../../Common/SocialLinks/Instagram/Instagram";
 
 
 
@@ -10,7 +9,7 @@ const InformationContent2 = () => {
             <section className="information_content2">
                 <div className="content_elements">
                     {
-                        InformationContent.map((content) => {
+                        LandingInformationContent2.map((content) => {
                             return (
                                 <>
                                     <h2>{content.contentOne}</h2>
@@ -20,10 +19,8 @@ const InformationContent2 = () => {
                         })
                     }
 
-                    <InstagramLink />
+                    <Instagram />
                 </div>
-
-                <QuickLinks />
             </section>
         </>
     )

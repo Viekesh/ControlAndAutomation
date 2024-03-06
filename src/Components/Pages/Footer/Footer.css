@@ -1,0 +1,42 @@
+.footer {
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    padding: 5vh;
+    height: auto;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.footer>.f_elements {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.footer>.f_elements>a {
+    margin: 9px 0;
+    color: gray;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* .dev_profile {
+    border: 1px solid black;
+    margin: 9px auto;
+    padding: 5px 0;
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dev_profile>h1 {
+    color: snow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+} */

@@ -1,70 +1,29 @@
-import servImg1 from "../Assets/Images/serviceImg1.jpg";
-import servImg2 from "../Assets/Images/serviceImg2.jpg";
-import servImg3 from "../Assets/Images/serviceImg3.jpg";
+import tnd from "../Assets/Images/transmission_towers.jpg";
+import sp from "../Assets/Images/solar_panels.jpg";
+import tps from "../Assets/Images/tractionpowersubstation.jpg";
 
 
 
-
-
-export const ServicesContent = [
-    {
-        contentOne: "streamline your workflow with our instant maintenance service"
-    }
-]
-
-
-
-export const ServiceCategoriesData = [
+const servicesdata = [
     {
         id: 1,
-        img: servImg1,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vero voluptas, sit debitis explicabo officiis numquam similique. Amet!",
-        subCat: [
-            {
-                s1: "lorem",
-            },
-            {
-                s1: "ipsum",
-            },
-            {
-                s1: "dolor",
-            }
-        ]
+        img: tnd,
+        imgAlt: "transmission and distribution",
+        headTitle: "transmission and distribution",
+    },
+    {
+        id: 1,
+        img: sp,
+        imgAlt: "solar panel",
+        headTitle: "solar panel",
     },
     {
         id: 2,
-        img: servImg2,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vero voluptas, sit debitis explicabo officiis numquam similique. Amet!",
-        subCat: [
-            {
-                s1: "lorem",
-            },
-            {
-                s1: "ipsum",
-            },
-            {
-                s1: "dolor",
-            }
-        ]
+        img: tps,
+        imgAlt: "substation",
+        headTitle: "substation",
     },
-    {
-        id: 3,
-        img: servImg3,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vero voluptas, sit debitis explicabo officiis numquam similique. Amet!",
-        subCat: [
-            {
-                s1: "lorem",
-            },
-            {
-                s1: "ipsum",
-            },
-            {
-                s1: "dolor",
-            }
-        ]
-    },
-];
+]
 
 
-
-//
+export default servicesdata;

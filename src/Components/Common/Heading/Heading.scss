@@ -1,53 +1,26 @@
-// Heading
-
 .main_head {
-    // border: 3px solid red;
-    height: 24vh;
-    background-image: url("../../../Assets/Images/mainHeadBg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-
-    justify-content: center;
+    border: 3px solid blue;
+    height: 18vh;
 }
 
 .main_head>h1 {
+    border: 3px solid red;
     margin: 0 auto;
     width: 80%;
     font-family: "Kanit", sans-serif;
-    font-size: 33px;
-    font-weight: 900;
-    color: snow;
-    justify-content: center;
-    text-shadow: 3px 1px 9px gray;
 }
 
 
+.sub_head {
+    // border: 3px solid blue;
+    height: 18vh;
+}
 
-.sub_head h1 {
-    // border: 3px solid black;
+.sub_head>h1 {
+    // border: 3px solid red;
     margin: 0 auto;
     width: 80%;
+    font-family: "Kanit", sans-serif;
     font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    // color: #ff9900;
-    color: darkblue;
-}
-
-
-
-@media only screen and (min-width: 768px) {
-
-    .main_head {
-        height: 30vh;
-    }
-
-    .main_head h1 {
-        width: 55%;
-    }
-
-    .sub_head h1 {
-        width: 60%;
-    }
-
+    text-transform: capitalize;
 }
