@@ -11,6 +11,12 @@ export const NavigationLinks = [
     },
     {
         id: 2,
+        navlink: "/Services",
+        name: "services",
+        reactIcon: "BiUserCircle"
+    },
+    {
+        id: 2,
         navlink: "/CaseStudies",
         name: "case studies",
         reactIcon: "BiUserCircle"
