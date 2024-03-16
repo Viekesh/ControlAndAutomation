@@ -36,12 +36,12 @@ const NavTop = () => {
                     </NavLink>
 
                     <div className="x_y_axis_center">
+
                         <div className="github_n_nav_icon">
                             <div className="g_icon">
-                                <div className="github_icon x_y_axis_center">
+                                <div className="github_icon">
                                     <a
                                         href="https://www.github.com/Viekesh"
-                                        className="x_y_axis_center"
                                         target="_blanc"
                                     >
                                         <svg
@@ -60,7 +60,6 @@ const NavTop = () => {
                             </div>
                         </div>
 
-
                         <button
                             className={`x_y_axis_center ${showMenu ? "is-active" : ""
                                 }`}
@@ -69,13 +68,15 @@ const NavTop = () => {
                         >
                             menu
                         </button>
+
                     </div>
                 </section>
             </nav>
 
-            <section className={`nav_links navigation_style y_axis_center ${showMenu ? "overlay" : ""
-                }`}
-                id="Navigation">
+            <section
+                className={`nav_links navigation_style y_axis_center ${showMenu ? "overlay" : ""}`}
+                id="Navigation"
+            >
 
                 <div className="links_conatainer">
                     <div className="link_options y_axis_center">
@@ -93,7 +94,9 @@ const NavTop = () => {
                         }
                     </div>
                 </div>
+
                 <div className="box_overlay" onClick={handleOverlayClick}></div>
+
             </section>
         </>
     )

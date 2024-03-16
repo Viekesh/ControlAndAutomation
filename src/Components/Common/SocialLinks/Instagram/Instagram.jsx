@@ -11,7 +11,10 @@ const Instagram = () => {
                     <img src={imgElectrician} alt="" />
                 </div>
 
-                <a href="https://www.instagram.com/tusha.rdeshmukh2023?igsh=NjBpNzBnYXIxaHBq" className="x_axis_center">
+                {/* <a href="https://www.instagram.com/tusha.rdeshmukh2023?igsh=NjBpNzBnYXIxaHBq" className="x_axis_center">
+                    <FaInstagram />
+                </a> */}
+                <a href="https://www.instagram.com/electrical_design_engineering/" className="x_axis_center">
                     <FaInstagram />
                 </a>
             </section>

@@ -1,14 +1,15 @@
 .footer {
     /* border: 3px solid red; */
+    border-top: 6px solid #ff9900;
     margin: 0 auto;
     padding: 5vh;
     height: auto;
     text-transform: uppercase;
-    background-color: black;
+    background-color: lightslategray;
 }
 
 .footer>.f_elements {
-    color: aliceblue;
+    color: snow;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
@@ -18,10 +19,10 @@
 
 .footer>.f_elements>a {
     margin: 9px 0;
-    color: gray;
+    color: snow;
     font-family: "Kanit", sans-serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* .dev_profile {

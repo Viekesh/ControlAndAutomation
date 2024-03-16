@@ -1,14 +1,14 @@
-// import NavTop from "../../Featured/Navigation/NavTop/NavTop";
-// import LandingPageHeading from "./LandingPageContent";
-// import "./Landing.scss";
-// import InformationContent from "./InformationalContent";
-// import SubHead from "../../Common/Heading/SubHead";
-// import QuickLinks from "../../Common/QuickLinks/QuickLinks";
-// import InformationContent2 from "./InformationContent2";
-// import SocialLinks from "../../Common/SocialLinks/SocialLinks";
-// import Footer from "../Footer/Footer";
-// import QnA from "../../Common/Qna/QnA";
-// import Testimonials from "../../Common/Testimonials/Testimonials";
+import NavTop from "../../Featured/Navigation/NavTop/NavTop";
+import LandingPageHeading from "./LandingPageContent";
+import "./Landing.scss";
+import InformationContent from "./InformationalContent";
+import SubHead from "../../Common/Heading/SubHead";
+import QuickLinks from "../../Common/QuickLinks/QuickLinks";
+import InformationContent2 from "./InformationContent2";
+import SocialLinks from "../../Common/SocialLinks/SocialLinks";
+import Footer from "../Footer/Footer";
+import QnA from "../../Common/Qna/QnA";
+import Testimonials from "../../Common/Testimonials/Testimonials";
 // import ServicesCarousel from "../Services/ServicesCarousel";
 
 
@@ -18,13 +18,13 @@ const Landing = () => {
         <>
 
             <header>
-                Contact Administrator To Get Access Of This Application
-                {/* <NavTop />
+                {/* Contact Administrator To Get Access Of This Application */}
+                <NavTop />
                 <SocialLinks />
-                <LandingPageHeading /> */}
+                <LandingPageHeading />
             </header>
 
-            {/* <main>
+            <main>
                 <InformationContent />
 
                 <QuickLinks />
@@ -51,7 +51,7 @@ const Landing = () => {
 
             <footer>
                 <Footer />
-            </footer> */}
+            </footer>
         </>
     );
 };
