@@ -1,0 +1,49 @@
+@media only screen and (min-width: 768px) {
+    .nav_top {
+        padding: 9px 0;
+    }
+
+    .nav_elements {
+        width: 66%;
+    }
+
+    .nav_elements>a>img {
+        width: 150px;
+    }
+
+    .nav_elements>div>button {
+        display: none;
+    }
+
+    .desktop_nav_links {
+        display: block;
+        width: 400px;
+    }
+
+    .desktop_nav_links .links_container {
+        margin: 0 9px 0 0;
+        justify-content: space-between;
+    }
+
+    .desktop_nav_links .links_container a {
+        padding: 6px 0;
+        color: black;
+        font-family: "Kanit", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .desktop_nav_links .links_container a::after {
+        content: '';
+        width: 0;
+        height: 3px;
+        display: block;
+        margin: 6px 0;
+        background: #ff9900;
+        transition: 0.3s;
+    }
+
+    .desktop_nav_links .links_container a:hover::after {
+        width: 54%;
+    }
+}

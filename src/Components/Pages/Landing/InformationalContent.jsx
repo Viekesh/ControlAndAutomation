@@ -15,9 +15,6 @@ const InformationContent = () => {
                     LandingInformationalContent.map((content) => {
                         return (
                             <>
-                                <div className="content1">
-                                    <h1>{content.contentOne}</h1>
-                                </div>
 
                                 <div className="img_box">
                                     <div className="background_img">
@@ -26,15 +23,15 @@ const InformationContent = () => {
                                     </div>
                                 </div>
 
-                                <div className="y_axis_center content_box content2">
+                                <div className="x_y_axis_center content_box content2">
                                     <h1><span>"</span>{content.contentTwo}<span>"</span></h1>
                                 </div>
 
-                                <div className="y_axis_center content_box content3">
+                                <div className="x_y_axis_center content_box content3">
                                     <h1><span>"</span>{content.contentThree}<span>"</span></h1>
                                 </div>
 
-                                <div className="y_axis_center content_box content4">
+                                <div className="x_y_axis_center content_box content4">
                                     <h1><span>"</span>{content.contentFour}<span>"</span></h1>
                                 </div>
                             </>

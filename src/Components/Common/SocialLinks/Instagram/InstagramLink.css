@@ -1,6 +1,6 @@
 .instagram_link {
-    /* border: 3px solid red; */
-    margin: 0 auto;
+    border: 3px solid transparent;
+    margin: 0 auto 9vh auto;
     justify-content: space-between;
 }
 

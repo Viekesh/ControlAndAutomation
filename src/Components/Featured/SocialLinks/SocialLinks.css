@@ -65,11 +65,10 @@
 
 
 .whatsapp {
-    border: 6px solid rgb(112, 185, 3);
+    border: 6px solid #25D366;
     border-radius: 100%;
     width: 50px;
     height: 50px;
-    color: black;
     background-color: snow;
     font-size: 18px;
     box-shadow: 1px 1px 6px 1px gray;
@@ -88,7 +87,7 @@
 }
 
 .whatsapp>a>svg {
-    color: rgb(112, 185, 3);
+    color: #25D366;
     font-size: 30px;
 }
 

@@ -1,12 +1,11 @@
 .qna {
     border: 3px solid transparent;
-    margin: 2em auto 0 auto;
+    margin: 2vh auto 6vh auto;
     width: 80%;
-    /* // position: relative; */
 }
 
 .qna h3 {
-    color: black;
+    color: snow;
 }
 
 .question {
@@ -25,8 +24,8 @@
     font-style: italic;
     font-size: 12px;
     font-weight: 900;
-    color: black;
-    background-color: snow;
+    color: snow;
+    background-color: lightslategray;
     box-shadow: 1px 1px 9px 1px gray;
 }
 

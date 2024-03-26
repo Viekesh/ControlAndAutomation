@@ -1,10 +1,10 @@
 import "./Services.scss";
 import NavTop from "../../FeaturedModules/Navigation/NavTop/NavTop";
-import Heading from "../../Common/Heading/Heading";
 import { ServiceCategoriesData, ServicesContent } from "../../../ServiceDB/ServicesData";
 import QnA from "../../Common/Qna/QnA";
 import SocialLinks from "../../Common/SocialLinks/SocialLinks";
 import SubHeading from "../../Common/Heading/SubHeading";
+import Heading from "../../Common/Heading/Heading";
 
 
 

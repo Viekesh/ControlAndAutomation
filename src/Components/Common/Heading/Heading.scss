@@ -13,17 +13,24 @@
     font-size: 30px;
 }
 
-
 .sub_head {
-    // border: 3px solid blue;
-    height: 18vh;
+    margin: 0 auto;
+    height: 9vh;
 }
 
 .sub_head>h1 {
-    // border: 3px solid red;
     margin: 0 auto;
     width: 80%;
     font-family: "Kanit", sans-serif;
     font-size: 30px;
     text-transform: capitalize;
+    box-shadow: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .sub_head>h1 {
+        border: 3px solid transparent;
+        margin: 9vh auto;
+        width: 60%;
+    }
 }

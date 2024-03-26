@@ -1,8 +1,7 @@
 export const LandingPageHead = [
     {
-        contentOne: "fix the flicker from glitch to great",
-        contentTwo: "power up the projects by level up your tech",
-        contentThree: "electrical and electronics made easy"
+        contentOne: "fix the flicker from glitch to great, power up the projects by level up tech",
+        contentTwo: "electrical and electronics made easy"
     }
 ]
 

@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import "./SwiperReact.scss";
-import { SwiperData } from "../../../ServiceDB/SwiperReactData";
+import servicesdata from "../../../ServiceDB/ServicesData";
 
 
 
@@ -26,7 +26,7 @@ const SwiperReact = () => {
                     navigation={true}
                 >
                     {
-                        SwiperData.map((data) => {
+                        servicesdata.map((data) => {
                             return (
                                 <>
                                     <SwiperSlide className="swipe_slides x_y_axis_center" key={data.id}>
